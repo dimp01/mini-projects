@@ -4,7 +4,8 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv('task1/netflix_titles.csv')
+base = Path(__file__).resolve().parent
+data = pd.read_csv(f'{base}/netflix_titles.csv')
 data.head()
 
 data.info()
@@ -48,7 +49,7 @@ data['ages'].unique()
 
 
 data.head()
-data.to_csv('./netflix_title_cleaned.csv')
+data.to_csv(f'{base}/netflix_title_cleaned.csv')
 
 
 
@@ -56,7 +57,7 @@ data.to_csv('./netflix_title_cleaned.csv')
 
 #find the data type of each column.
 
-netflix_2019_file_path = 'task1/netflix_titles.csv'
+netflix_2019_file_path = f'{base}/netflix_titles.csv'
 
 data = pd.read_csv(netflix_2019_file_path)
 data
