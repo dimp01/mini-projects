@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 
 base = Path(__file__).resolve().parent
 data = pd.read_csv(f'{base}/netflix_titles.csv')
