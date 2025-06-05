@@ -2,6 +2,7 @@
 
 In this task, I worked on creating a compelling visual story using Power BI and a sales dataset (e.g., Superstore.csv). I began by transforming and cleaning the data, establishing the necessary data connections, and preparing it for analysis.
 To derive deeper insights, I used DAX functions to create new measures and built calculated columns for custom logic. I then visualized the data using a variety of visuals including charts, cards, and geo map plots, selecting the most appropriate chart types for each insight.
+
 Throughout the process, I followed best practices in data storytelling by highlighting key takeaways, adding contextual information to visuals, and focusing on business-relevant insights rather than just aesthetics. Finally, I used the visual editor to design and decorate the dashboard, ensuring it was clean, interactive, and easy to understand.
 The final output is a visual report/dashboard that effectively communicates insights through clear, engaging, and insightful storytelling.
 
