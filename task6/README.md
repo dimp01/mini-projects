@@ -1,6 +1,6 @@
-## Task-6 Summary : Sales Trend Analysis using Aggregation.
+## Task-6 Summary : Sales Trend Analysis using Aggregation. 
 
-<br>
+
 
 ### Task Description
 
@@ -11,16 +11,16 @@ online_ssles database contains :
 - orders table with columns (order_id, order_date, amount, product_id) 
 - products table with columns (product_id, name, price, category_id)
 - category table with columns (category_id, category)
-#
 
-
-### Objective
-
-The primary objective is to analyze monthly sales trends by calculating total revenue and order volume for each month. This involves grouping data by month and year, and applying aggregation functions to derive meaningful insights about business performance over time.
 #
 ### Tool
 
 MySQL was used as the relational database management system to execute SQL queries and perform the analysis.
+#
+
+### Objective
+
+The primary objective is to analyze monthly sales trends by calculating total revenue and order volume for each month. This involves grouping data by month and year, and applying aggregation functions to derive meaningful insights about business performance over time.
 
 #
 ### Summary
