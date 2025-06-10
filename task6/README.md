@@ -1,5 +1,7 @@
 ## Task-6 Summary : Sales Trend Analysis using Aggregation.
 
+<br>
+
 ### Task Description
 
 This task involves performing a time-based sales trend analysis using SQL aggregation techniques. The dataset provided is an online_sales table, specifically focusing on the orders table, which contains relevant fields such as order_date, amount, and product_id. The analysis centers on aggregating monthly revenue and order volume to identify patterns and trends in sales performance over a defined time period.
@@ -44,17 +46,20 @@ This task demonstrated the effective use of SQL aggregation functions in analyzi
 
 Through this analysis, proficiency was developed in using SQL for time-series data aggregation, enhancing both technical querying skills and business interpretation capabilities. The insights obtained from this task can serve as a foundation for more advanced reporting, forecasting, or decision-making processes related to sales strategy and resource planning.
 
-
-
-
+<br>
 
 ---
 
+<br>
+
 ### Answers for Interview Questions:
+
+<br>
 
 **1. How do you group data by month and year?**
 > Use GROUP BY YEAR(date_column), MONTH(date_column) or use DATE_FORMAT(date_column, '%Y-%m') in MySQL for better formatting.
- <br>
+
+<br>
 
 **2. What's the difference between COUNT(*) and COUNT(DISTINCT col)?**
 > COUNT(*) counts all rows including NULLs.
