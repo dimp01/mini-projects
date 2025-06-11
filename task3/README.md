@@ -6,6 +6,25 @@ The Superstore Sales Dashboard project aims to provide an interactive and compre
 
 The dashboard was developed using Power BI, leveraging its powerful data modeling and visualization capabilities. The dataset contains detailed transactional sales data including order dates, product categories, regions, and customer segments, which are crucial for granular analysis.
 
+#### About data:
+dataset: product sales dataset from kaggle (https://www.kaggle.com/datasets/anuchhetry/product-sales?select=Sales_v1.xlsx)
+This dataset contains:
+
+Segment: Segment wise sales, data type: Text
+Country: 5 countries, data type: Text
+Product: 7 Products
+Discount Band: None, High, Low, Medium
+Units Sold: Quantity present
+Manufacturing price: In USD
+Sales Price: Sales Price of each product
+Gross Sales: Gross sales on each product
+Discounts: Discounts on the product
+Sales: Sales of each product
+COGS: Cost of goods sold
+Profit: Profit is given
+Date: Date in which sales was acheived
+I have worked on sales dashboard comparing Q4 2014 with Q4 2013 to give few insights.
+
 ####  Key features of the dashboard include:
 
 - Interactive Filters (Slicers): Users can dynamically filter data by region, product category, and time period. This allows for customized views of sales performance, facilitating focused analysis on specific markets or products.
