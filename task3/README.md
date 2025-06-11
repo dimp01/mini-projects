@@ -1,31 +1,32 @@
 ## Task-3 Summary: Dashboard Design
 
 
-#### Dataset: Superstores sales dataset. 
+### Dataset: Superstores sales dataset. 
 The Superstore Sales Dashboard project aims to provide an interactive and comprehensive visualization tool to analyze the sales performance of a retail superstore. This dashboard consolidates key business metrics such as total sales, profit, and order quantity, enabling decision-makers to monitor business health and identify growth opportunities efficiently.
 
 The dashboard was developed using Power BI, leveraging its powerful data modeling and visualization capabilities. The dataset contains detailed transactional sales data including order dates, product categories, regions, and customer segments, which are crucial for granular analysis.
 
 #### About data:
-dataset: product sales dataset from kaggle (https://www.kaggle.com/datasets/anuchhetry/product-sales?select=Sales_v1.xlsx)
+Dataset: product sales dataset from kaggle (https://www.kaggle.com/datasets/anuchhetry/product-sales?select=Sales_v1.xlsx)
 This dataset contains:
 
-Segment: Segment wise sales, data type: Text
-Country: 5 countries, data type: Text
-Product: 7 Products
-Discount Band: None, High, Low, Medium
-Units Sold: Quantity present
-Manufacturing price: In USD
-Sales Price: Sales Price of each product
-Gross Sales: Gross sales on each product
-Discounts: Discounts on the product
-Sales: Sales of each product
-COGS: Cost of goods sold
-Profit: Profit is given
-Date: Date in which sales was acheived
-I have worked on sales dashboard comparing Q4 2014 with Q4 2013 to give few insights.
+- Segment: Segment wise sales, data type: Text
+- Country: 5 countries, data type: Text
+- Product: 7 Products
+- Discount Band: None, High, Low, Medium
+- Units Sold: Quantity present
+- Manufacturing price: In USD
+- Sales Price: Sales Price of each product
+- Gross Sales: Gross sales on each product
+- Discounts: Discounts on the product
+- Sales: Sales of each product
+- COGS: Cost of goods sold
+- Profit: Profit is given
+- Date: Date in which sales was acheived
 
-####  Key features of the dashboard include:
+I have worked on sales dashboard comparing Q4 2014 with Q4 2013 to give few insights.
+#
+###  Key features of the dashboard include:
 
 - Interactive Filters (Slicers): Users can dynamically filter data by region, product category, and time period. This allows for customized views of sales performance, facilitating focused analysis on specific markets or products.
 - KPI Cards: At the top of the dashboard, summary cards display critical metrics like total sales, total profit, and total orders. These provide at-a-glance insights into overall business performance.
@@ -37,9 +38,11 @@ This project not only demonstrates the practical use of business intelligence to
 
 In summary, the Superstore Sales Dashboard is a valuable analytical tool that transforms complex sales data into actionable insights through an interactive and user-friendly interface. It supports better business planning, performance tracking, and resource allocation, making it an essential component in retail business intelligence.
 
+<br>
 
 ---
 
+<br>
 
 ### Interview Question's Answers:
 
@@ -57,14 +60,17 @@ In summary, the Superstore Sales Dashboard is a valuable analytical tool that tr
 >
 > Navigation – Buttons or tabs for easy movement across sections.
 
+<br>
 
 **2. What is a KPI?**
 > KPI (Key Performance Indicator) is a measurable value that shows how well a business is achieving its objectives (e.g., monthly sales, profit margin, customer growth).
 
+<br>
 
 **3. What are Slicers in Power BI?**
 > Slicers are visual filters in Power BI that let users interactively filter data on a dashboard (e.g., select a specific product, year, region).
 
+<br>
 
 **4. Difference between Power BI and Tableau (in points)**
 > Power BI is Microsoft-based, Tableau is independent.
@@ -77,6 +83,7 @@ In summary, the Superstore Sales Dashboard is a valuable analytical tool that tr
 >
 > Power BI is easier for beginners, Tableau offers more flexibility for advanced users.
 
+<br>
 
 **5. How to Make a Dashboard Interactive**
 > Use slicers and filters (category, date, region).
@@ -87,6 +94,7 @@ In summary, the Superstore Sales Dashboard is a valuable analytical tool that tr
 >
 > Add tooltips to show more info on hover.
 
+<br>
 
 **6. How to Deal with Large Datasets**
 > Use data summarization (aggregates).
@@ -99,7 +107,7 @@ In summary, the Superstore Sales Dashboard is a valuable analytical tool that tr
 >
 > Optimize visuals and avoid heavy custom visuals.
 
-
+<br>
 
 **7. Chart Types for Trend Analysis**
 > Line Chart – Best for showing trends over time.
