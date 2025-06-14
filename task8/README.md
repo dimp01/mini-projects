@@ -1,1 +1,2 @@
-## Task - 8 Summary: 
+## Task - 8 Summary: Simple Sales Dashboard
+
