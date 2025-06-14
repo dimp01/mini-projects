@@ -1,51 +1,47 @@
 ## Task - 7 Summary: Get Basiscs Sales Summary from a Tiny SQLite Database using Python.
 
-Project Summary: Basic Sales Summary Using SQLite and Python
+### Task Description
+The objective of this task was to extract and summarize key sales information from a small SQLite database using Python.
 
-Project Title:
-Basic Sales Analytics using SQL in Python
+#
 
-Objective:
+### Dataset Overview
+- **Type:** SQLite database
+- **Content:**
+   - A custom SQLite database: sales_data.db
+   - A single table: sales
+   - Key columns: product, quantity, price
+
+#
+
+### Tools & Technologies used
+- **Python:** For scripting and data extraction.
+- **SQLite:** As the database engine to store and retrieve sales data.
+- **pandas:** For additional data manipulation and summarization
+- **matplotlib:** For data visualization
+
+#
+
+### Objective:
 The objective of this task was to extract and summarize sales data from a small SQLite database using SQL queries within Python, and to visualize the results with a simple bar chart. This project helped bridge the gap between database operations and Python-based data analysis.
 
-Tools & Technologies Used:
+#
 
-Python (Core language)
+### Project Workflow:
 
-SQLite (sqlite3 module for database interaction)
-
-Pandas (for data manipulation and query results handling)
-
-Matplotlib (for data visualization)
-
-
-Dataset Overview:
-
-A custom SQLite database: sales_data.db
-
-A single table: sales
-
-Key columns: product, quantity, price
-
-
-Project Workflow:
-
-1. Database Connection:
+**1. Database Connection:**
 Established a connection to the sales_data.db using Python’s built-in sqlite3 module.
 
-
-2. SQL Query Execution:
+**2. SQL Query Execution:**
 Executed a query to compute:
+- Total quantity sold
+- Total revenue per product
 
-Total quantity sold
-
-Total revenue per product
 Example query:
 
-
-SELECT product, SUM(quantity) AS total_qty, SUM(quantity * price) AS revenue 
-FROM sales 
-GROUP BY product;
+  SELECT product, SUM(quantity) AS total_qty, SUM(quantity * price) AS revenue 
+  FROM sales 
+  GROUP BY product;
 
 
 3. Data Import into Python:
@@ -112,32 +108,30 @@ Revenue was calculated using the SUM() function in SQL or with df['Revenue'].sum
 
 ---
 
-5. How did you visualize the result?
-I used Python libraries such as Matplotlib and Seaborn to create bar charts and line graphs. For example:
+**5. How did you visualize the result?**
+> I used Python libraries such as Matplotlib and Seaborn to create bar charts and line graphs. For example:
 
-import matplotlib.pyplot as plt  
-df.plot(kind='bar', x='Category', y='Total_Revenue')
+  > import matplotlib.pyplot as plt  
+  > df.plot(kind='bar', x='Category', y='Total_Revenue')
 
+<br>
 
----
-
-6. What does pandas do in your code?
-pandas is used to read, clean, manipulate, and analyze data in a structured format. It allows for operations like filtering, grouping, merging datasets, and running descriptive statistics.
-
-
----
-
-7. What’s the benefit of using SQL inside Python?
-Combining SQL with Python offers flexibility:
-
-SQL handles complex data retrieval and aggregation.
-
-Python processes, visualizes, and integrates the results with other tools.
-This makes the workflow more powerful and automated.
+**6. What does pandas do in your code?**
+> pandas is used to read, clean, manipulate, and analyze data in a structured format. It allows for operations like filtering, grouping, merging datasets, and running descriptive statistics.
 
 
+<br>
 
----
+**7. What’s the benefit of using SQL inside Python?**
+> Combining SQL with Python offers flexibility:
 
-8. Could you run the same SQL query directly in DB Browser for SQLite?
-Yes, the same SQL query can be executed directly in DB Browser for SQLite. Python simply allows running the query programmatically.
+> SQL handles complex data retrieval and aggregation.
+
+> Python processes, visualizes, and integrates the results with other tools.
+
+> This makes the workflow more powerful and automated.
+
+<br>
+
+**8. Could you run the same SQL query directly in DB Browser for SQLite?**
+> Yes, the same SQL query can be executed directly in DB Browser for SQLite. Python simply allows running the query programmatically.
