@@ -11,10 +11,10 @@ base = Path(__file__).resolve().parent
 with open(f'{base}/Superstore.csv', 'r', encoding='utf-8', errors='replace') as f:
     lines = f.readlines()
 
-with open('new_superstore.csv', 'w', encoding='utf-8') as f:
+with open(f'{base}new_superstore.csv', 'w', encoding='utf-8') as f:
     f.writelines(lines)
 
-df = pd.read_csv('new_superstore.csv')
+df = pd.read_csv(f'{base}new_superstore.csv')
 
 print(df.head(5))
 
@@ -57,5 +57,3 @@ print(df[['Order Date', 'Order Month', 'Month Name', 'Order Year', 'Ship Date', 
 
 df.to_csv(f'{base}/superstore_sales_cleaned.csv')
 
-print(df.head(3))
-print(df.tail(3))
