@@ -1,21 +1,23 @@
 ## Task - 8 Summary: Simple Sales Dashboard Design
 
-Title:
-Interactive Sales Performance Dashboard using Power BI
 
-Objective:
+### Task Description
+Design an interactive and clear sales performance dashboard using Power BI that provides actionable insights into sales across various product categories, regions, and time periods.
+
+
+### Objective:
 The goal of this project was to design a clear and interactive sales dashboard that provides insights into sales performance across different product categories, regions, and time periods. The dashboard enables business users to track key metrics and make informed decisions efficiently.
 
-Tools Used:
+### Tools Used:
 
 Power BI for data visualization and dashboard creation
 
 (Optional) Python with Pandas for preliminary data cleaning
 
-Dataset: Superstore_Sales.csv
+### Dataset: Superstore_Sales.csv
 
 
-Project Highlights:
+### Project Highlights:
 
 Imported and preprocessed the dataset in Power BI
 
@@ -35,7 +37,7 @@ Added dynamic slicers to filter data by Region and Category
 Applied effective use of colors and layout for a clean and user-friendly interface
 
 
-Key Insights Derived:
+### Key Insights Derived:
 
 1. The West region led in overall sales throughout the year.
 
@@ -50,11 +52,12 @@ Key Insights Derived:
 
 
 
-Outcome:
+### Outcome:
 The completed dashboard provides a quick yet comprehensive overview of business performance, highlighting trends and outliers in sales data. It serves as a valuable tool for stakeholders to explore data interactively and support strategic planning.
 
+---
 
-Interview Question's Answers:
+### Interview Question's Answers:
 
 1. What does a dashboard do?
 A dashboard visually displays key data and insights in one place, helping users quickly monitor performance and make informed decisions.
