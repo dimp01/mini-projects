@@ -32,8 +32,6 @@ print(df.columns)
 df['Order Date'] = pd.to_datetime(df['Order Date'], format='%d-%m-%Y', errors='coerce')
 df['Ship Date'] = pd.to_datetime(df['Ship Date'], format='%d-%m-%Y', errors='coerce')
 
-print(df.info())
-
 
 # Create new columns for month and year from both date columns
 df['Order Month'] = df['Order Date'].dt.month
@@ -42,16 +40,25 @@ df['Order Year'] = df['Order Date'].dt.year
 df['Ship Month'] = df['Ship Date'].dt.month
 df['Ship Year'] = df['Ship Date'].dt.year
 
+"""
 df['Month Name'] = pd.Categorical(
-    df['Order Date'].dt.strftime('%B'),
+    df['Order Month'].dt.strftime('%B'),
     categories=['January', 'February', 'March', 'April', 'May', 'June',
                 'July', 'August', 'September', 'October', 'November', 'December'],
     ordered=True
 )
+"""
+ 
+import calendar
+df['Order Month_name'] = df['Order Month'].apply(lambda x: calendar.month_name[x])
+df['Ship Month_name'] = df['Ship Month'].apply(lambda x: calendar.month_name[x])
+
+print(df.info())
+print(df.shape)
 
 
 # Show the updated DataFrame with the new columns
-print(df[['Order Date', 'Order Month', 'Month Name', 'Order Year', 'Ship Date', 'Ship Month', 'Ship Year']].head(4))
+print(df[['Order Date', 'Order Month', 'Order Month_name', 'Order Year', 'Ship Date', 'Ship Month', 'Ship Month_name', 'Ship Year']].head(4))
 
 
 
