@@ -3,7 +3,7 @@
 ## Project-7: 📊 Financial KPI Analysis for a Startup
 
 **Author:** Dimple Anjara  
-**Duration:** 2 Weeks Internship Project  
+**Duration:** 1 Month Internship Project  
 **Tools Used:** Python, Excel, Power BI
 
 ---
