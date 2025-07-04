@@ -22,6 +22,25 @@ An interactive dashboard was built in Power BI to visualize trends, compare perf
 
 ---
 
+## 📦 Dataset Overview
+
+| Column | Description | Typical Use |
+|--------------------------|--------------------------------------------------|-----------------------------|
+| `Date` | Daily records from 1 Jan 2024 to 1 Jul 2025 | Time-series analysis |
+| `Revenue` | Daily gross revenue (₹) | Trend & Run-Rate |
+| `Marketing_Spend` | Daily marketing cost (₹) | CAC calculation |
+| `Expenses` | Other operating expenses (₹) | Burn-Rate |
+| `New_Customers` | New customers acquired that day | CAC denominator |
+| `Retained_Customers` | Returning customers | LTV numerator |
+| `Burn_Rate` | Expenses + Marketing – Revenue | Cash-flow health |
+| `CAC` | Marketing / New_Customers | Acquisition efficiency |
+| `Avg_Revenue_per_Customer` | Revenue / (All customers that day) | Basis for LTV |
+| `LTV` | Avg Rev × 6-month lifetime assumption | Customer value |
+| `LTV_CAC_Ratio` | LTV / CAC | Investment return gauge |
+| `Run_Rate` | Revenue × 12 | Annualized revenue |
+
+---
+
 ## 📁 Deliverables
 
 | File | Description |
